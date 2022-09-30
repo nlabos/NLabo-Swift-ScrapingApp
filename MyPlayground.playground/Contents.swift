@@ -6,6 +6,7 @@ favoriteDictionary["Fruit"] = "Apple"
 favoriteDictionary["Sports"] = "Tennis"
 favoriteDictionary["Study"] = "Programming"
 
+//ここは黄色の警告が出るので気になる生徒にはオプショナルの説明をした上で print(favoriteDictionary["Study"] as Any) にするとエラーが消えることを説明する
 print(favoriteDictionary["Study"])
 
 if let studyValue = favoriteDictionary["Study"] {
